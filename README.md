@@ -34,37 +34,27 @@ This is a complete **end-to-end data analysis project**, showcasing the workflow
 ##  Project Structure  
 bellabeat-menstrual-cycle-analysis/
 │
-├── Bellabeat_case_study.Rmd # Full analysis report (source)
-├── Bellabeat_case_study.html # Rendered HTML report (served on GitHub Pages)
-├── bellabeat-menstrual-cycle-analysis.Rproj
-│
-├── daily_activity_cycles_full.csv # Activity + cycle merged data
-├── Extracted_Id.csv # User IDs + first activity dates
-├── periods_simulated.csv # Simulated period start data
-│
-├── images/ # Report visuals
-│ ├── chart_cycleday_line.png
-│ ├── chart_phase_bars.png
-│ ├── chart_scatter_user_activity.png
-│ ├── chart_user_time_series.png
-│ ├── dashboard_full.png
-│ ├── excel_dailyActivity_sample.png
-│ ├── excel_extracted_id.png
-│ ├── excel_periods_simulated_sample.png
-│ ├── (more…)
-│
-├── analysis_outputs/ # Analysis CSV + PNG outputs
-│ ├── phase_summary.csv
-│ ├── cycleday_trend.csv
-│ ├── user_delta_fol_minus_men.csv
-│ ├── global_summary.csv
-│ ├── user_delta_hist.png
-│ └── ...
-│
-├── docs/ # GitHub Pages website
-│ └── index.html
-│
-└── README.md
+├─ .gitignore
+├─ .Rhistory
+├─ bellabeat-menstrual-cycle-analysis.Rproj
+├─ Bellabeat_case_study.Rmd
+├─ Bellabeat_case_study.html
+├─ daily_activity_cycles_full.csv
+├─ Extracted_Id.csv
+├─ periods_simulated.csv
+├─ analysis_outputs/
+│    ├─ phase_summary.csv
+│    ├─ cycleday_trend.csv
+│    ├─ user_delta_fol_minus_men.csv
+│    └─ etc...
+├─ images/
+│    ├─ dashboard_full.png
+│    ├─ chart_phase_bars.png
+│    ├─ chart_cycleday_line.png
+│    ├─ etc…
+├─ LICENSE
+└─ README.md
+
 ---
 
 ##  Summary of Findings  
