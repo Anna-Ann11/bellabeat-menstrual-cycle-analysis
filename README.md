@@ -1,10 +1,13 @@
 #  Bellabeat Menstrual-Cycle Activity Analysis  
 ### *Exploring how daily activity patterns vary across menstrual cycle phases using Fitbit data*
 
- **Live HTML Report:**  
+##  Live Project Links
+
+###  Full Interactive Report (GitHub Pages)
 https://anna-ann11.github.io/bellabeat-menstrual-cycle-analysis/
 
----
+###  Tableau Dashboard (Public)
+https://public.tableau.com/app/profile/anna.alina.robert/viz/BellabeatActivityPatternsAcrossMenstrualCyclePhases/Dashboard1
 
 ##  Project Overview  
 This project analyzes **Fitbit daily activity data for 33 users** and aligns each activity day with a **simulated menstrual cycle phase**.  
@@ -31,29 +34,37 @@ This is a complete **end-to-end data analysis project**, showcasing the workflow
 ##  Project Structure  
 bellabeat-menstrual-cycle-analysis/
 │
-├─ Bellabeat_case_study.Rmd # Full analysis report
-├─ Bellabeat_case_study.html # Rendered HTML report
-├─ daily_activity_cycles_full.csv # Activity + cycle merged data
-├─ periods_simulated.csv # Simulated period start data
-├─ Extracted_Id.csv # User IDs + first activity dates
+├── Bellabeat_case_study.Rmd # Full analysis report (source)
+├── Bellabeat_case_study.html # Rendered HTML report (served on GitHub Pages)
+├── bellabeat-menstrual-cycle-analysis.Rproj
 │
-├─ images/ # Report visuals
-│ ├─ chart_cycleday_line.png
-│ ├─ chart_phase_bars.png
-│ ├─ chart_scatter_user_activity.png
-│ ├─ excel_dailyActivity_sample.png
-│ └─ (others...)
+├── daily_activity_cycles_full.csv # Activity + cycle merged data
+├── Extracted_Id.csv # User IDs + first activity dates
+├── periods_simulated.csv # Simulated period start data
 │
-├─ analysis_outputs/ # Analysis CSV + PNG outputs
-│ ├─ phase_summary.csv
-│ ├─ cycleday_trend.csv
-│ └─ user_delta_fol_minus_men.csv
+├── images/ # Report visuals
+│ ├── chart_cycleday_line.png
+│ ├── chart_phase_bars.png
+│ ├── chart_scatter_user_activity.png
+│ ├── chart_user_time_series.png
+│ ├── dashboard_full.png
+│ ├── excel_dailyActivity_sample.png
+│ ├── excel_extracted_id.png
+│ ├── excel_periods_simulated_sample.png
+│ ├── (more…)
 │
-├─ docs/ # GitHub Pages site (index.html)
-│ └─ index.html
+├── analysis_outputs/ # Analysis CSV + PNG outputs
+│ ├── phase_summary.csv
+│ ├── cycleday_trend.csv
+│ ├── user_delta_fol_minus_men.csv
+│ ├── global_summary.csv
+│ ├── user_delta_hist.png
+│ └── ...
 │
-└─ README.md
-
+├── docs/ # GitHub Pages website
+│ └── index.html
+│
+└── README.md
 ---
 
 ##  Summary of Findings  
