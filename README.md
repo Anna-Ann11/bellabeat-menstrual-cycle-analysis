@@ -31,7 +31,8 @@ This is a complete **end-to-end data analysis project**, showcasing the workflow
 
 ---
 
-##  Project Structure  
+##  Project Structure 
+```text
 bellabeat-menstrual-cycle-analysis/
 │
 ├─ .gitignore
@@ -54,7 +55,7 @@ bellabeat-menstrual-cycle-analysis/
 │    ├─ etc…
 ├─ LICENSE
 └─ README.md
-
+```
 ---
 
 ##  Summary of Findings  
