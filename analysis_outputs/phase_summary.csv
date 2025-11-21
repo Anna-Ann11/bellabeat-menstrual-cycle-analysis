@@ -1,0 +1,5 @@
+CyclePhase,n_days,avg_steps,sd_steps,se_steps,avg_cal,avg_sedentary
+Luteal,400,8031,5243.6,262.2,2353,951.4
+Ovulatory,101,7814,5212.5,518.7,2393,1014.4
+Follicular,276,7256,4914.2,295.8,2226,1013.5
+Menstrual,163,7212,4866.9,381.2,2260,1036.8

@@ -1,0 +1,2 @@
+"total_rows","rows_with_cycle","matched_pct","n_users","min_activity","max_activity","min_period","max_period","mean_cycle_len","sd_cycle_len"
+940,940,100,33,"2016-12-04","2019-07-01","2016-12-01","2019-06-24",28.6,3
